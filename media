@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+
+float A1, A2, PESOA1, PESOA2;
+float media;
+
+PESOA1 = 0.4;
+PESOA2 = 0.6;
+
+media = ((PESOA1 * A1) + (PESOA2 * A2)) / 2;
+
+printf ("Nota A1: "); scanf ("%f\n",&A1);
+printf ("Nota A2: "); scanf ("%f\n",&A2);
+printf ("Sua média é: %f\n", media); 
+  
+
+  return 0;
+}
